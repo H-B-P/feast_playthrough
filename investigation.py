@@ -350,3 +350,7 @@ du.wraps.interxhunt_normal_model(df, 'Q', s, [
                                  "Total", "TSpiciness", "TSweetness"], model, filename="suggestions4")
 
 # Ok yeah we're done here
+# %%viz!
+
+du.wraps.viz_additive_model(model)
+du.misc.explain(model, 3)
